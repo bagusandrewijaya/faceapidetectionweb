@@ -2,6 +2,12 @@
 
 A Flutter package that enables face detection and expression analysis through JavaScript interoperability.
 
+**Demo Video Using Virtual Camera** 
+
+https://github.com/user-attachments/assets/637b3177-cc17-4830-aca3-a663c6df3f2d
+
+
+
 ## Prerequisites
 
 Before using this package, you must download the required face detection model files.
@@ -70,10 +76,6 @@ Deactivates the camera.
 void takePhoto()
 ```
 Captures a photo using the active camera.
-
-### CounterWidget
-
-A stateful widget that demonstrates the implementation of camera controls and face detection.
 
 #### State Properties
 
