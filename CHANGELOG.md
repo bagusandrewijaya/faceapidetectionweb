@@ -1,3 +1,13 @@
+## 1.0.0+4
+
+* Added video demo
+
+## 1.0.0+4
+
+* Added proper cleanup of JavaScript resources
+* Updated documentation with download usage examples
+
+
 ## 0.0.3
 
 * Fixed JavaScript bridge initialization issues
