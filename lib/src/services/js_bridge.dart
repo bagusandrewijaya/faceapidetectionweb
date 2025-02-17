@@ -37,7 +37,6 @@ class JSBridge {
     };
   
 
-    js.context.callMethod('startCountingSeconds');
   }
 
   void incrementCounter() {

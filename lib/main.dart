@@ -3,6 +3,7 @@ import 'src/widgets/counter_widget.dart';
 
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized(); // Add initialization binding
   runApp(const MyApp());
 }
 
@@ -22,7 +23,6 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
@@ -30,7 +30,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Flutter Web Counter'),
+        title: const Text('Face Detection'),
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
       ),
       body: const CounterWidget(),

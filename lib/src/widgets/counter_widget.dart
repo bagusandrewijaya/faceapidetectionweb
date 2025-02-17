@@ -9,7 +9,7 @@ class CounterWidget extends StatefulWidget {
 }
 
 class _CounterWidgetState extends State<CounterWidget> {
-  final JSBridge _jsBridge = JSBridge();
+final JSBridge _jsBridge = JSBridge();
   bool _isCameraOpen = false;
   String? _lastPhotoTaken;
   String? _lastPhotoWithBox;
