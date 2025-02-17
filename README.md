@@ -4,7 +4,7 @@ A Flutter package that enables face detection and expression analysis through Ja
 
 **Demo Video Using Virtual Camera** 
 
-![Demo Video Using Virtual Camera](https://github.com/bagusandrewijaya/faceapidetectionweb/gif/example.gif)
+![Demo Video Using Virtual Camera](https://github.com/bagusandrewijaya/faceapidetectionweb/blob/main/gif/example.gif?raw=true)
 
 
 
